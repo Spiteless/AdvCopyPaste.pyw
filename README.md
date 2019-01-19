@@ -30,3 +30,4 @@ You'll also notice some notifications when certain actions are performed. To dis
   * Certain programs cannot seem to keep up with the typing speed; it misses key presses and gets messed up. Cmd.exe is one of them
   * This script SHOULD be cross platform, but is untested
   * Copying a string that is too long will result in it being garbled (don't copy the Bee movie script)
+  * The prereqs.py script does a global pip install of all the required modules; no built-in venv support
