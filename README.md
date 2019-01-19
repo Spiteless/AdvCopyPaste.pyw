@@ -25,6 +25,7 @@ You'll also notice some notifications when certain actions are performed. To dis
 
 # WARNINGS:
   * These scripts only work with Python 3.6 or later
+  * This script only works with text; no intention to support files either
   * As previously mentioned, you have to copy text to the clipboard before adding it to the buffer
   * The script will press the enter key between each string in the buffer
   * Certain programs cannot seem to keep up with the typing speed; it misses key presses and gets messed up. Cmd.exe is one of them
