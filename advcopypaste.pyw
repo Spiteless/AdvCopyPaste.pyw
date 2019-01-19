@@ -19,7 +19,6 @@ buff8=[] # but I had an issue where doing buf0=buf1=buf2...=[] lead to the buffe
 buff9=[] # so that was weird
 bufferList = [buff0,buff1,buff2,buff3,buff4,buff5,buff6,buff7,buff8,buff9] # this is just a list of every buffer; allows for easy switching
 ENTER = "enter" # change this to something else if you don't want the program to press enter after it types something
-# ENTER = "f"
 
 # notification settings
 NOTIFICATION_LEVEL = 1 if platform().find("Windows") == 0 else 0 # 0 = no, 1 = some, 2 = some but it's also shows what you just put in the buffer
