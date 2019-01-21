@@ -89,7 +89,7 @@ hotkeys.append((previewAllBuffers, f"{superKey}+ctrl+slash", True, None))
 def msg(s, alert_type="alert"): # this method handles the notifications even more than it already has been abstracted
     if NOTIFICATION_LEVEL > 0:
         try:
-            subprocess.Popen(['py', 'alert.py', f'--{alert_type}="{s}"'])
+            subprocess.Popen(['py', 'alert.pyw', f'--{alert_type}="{s}"'])
             # notify.show_toast(TOAST_TITLE_STR,s)
         except: # so in theory if the user tries to run this on Linux it should come through here
             # return False # this is of course untested. what is QC?

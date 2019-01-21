@@ -17,3 +17,7 @@ try:
     import pyperclip
 except ModuleNotFoundError:
     importModule("pyperclip")
+try:
+    import win32clipboard
+except ModuleNotFoundError:
+    importModule("win32clipboard")
